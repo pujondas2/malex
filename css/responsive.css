@@ -1,0 +1,152 @@
+/* Normal desktop :1200px. xl */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. lg */ 
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .search-icon {
+        display: none;
+    }
+
+    .single-service {
+        padding: 45px 22px;
+    }
+
+    .review-quote {
+        height: 110px;
+    }
+
+    .location-area {
+        padding: 50px 35px;
+    }
+
+    .footer-social a {
+        margin-left: 10px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. md */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .back-text {
+        font-size: 160px;
+        top: -70px;
+    }
+
+    .single-service {
+        padding: 45px 30px;
+    }
+
+    .footer-area .logo,
+    .footer-area .copyright-text,
+    .footer-area .footer-social {
+        text-align: center!important;
+        margin-bottom: 30px;
+    }
+
+    .footer-area .footer-social {
+        margin-bottom: 0;
+    }
+
+}
+
+/* for mobile menu */
+@media (max-width: 991px) {
+    .main-menu {
+        position: fixed;
+        background: #060606;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        padding: 0 15px;
+        transition: all 0.4s ease;
+        z-index: -9999;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    
+    .main-menu ul li {
+        display: block;
+        text-align: right;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .main-menu ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .menu-address p {
+        color: #fff;
+    }
+    
+    .menu-copy {
+        position: absolute;
+        bottom: 45px;
+    }
+    
+    .main-menu.active {
+        right: 0;
+    }
+    
+    .mobile-menu.none {
+        display: none;
+    }
+    .main-menu.active .menu-address,
+    .main-menu.active .menu-copy {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+    .mobile-menu {
+        display: flex;
+    }
+}
+
+ 
+/* small mobile :320px. sm */
+@media (max-width: 767px) {
+
+    .back-text {
+        font-size: 150px;
+        top: -50px;
+    }
+
+    .review-quote {
+        float: none;
+        margin-bottom: -45px;
+        height: 70px;
+    }
+
+    .footer-area .logo,
+    .footer-area .copyright-text,
+    .footer-area .footer-social {
+        text-align: center!important;
+        margin-bottom: 30px;
+    }
+
+    .footer-area .footer-social {
+        margin-bottom: 0;
+    }
+ 
+}
+
+
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
