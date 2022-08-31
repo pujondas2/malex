@@ -260,6 +260,60 @@ label {
 	background: #444;
 }
 
+/* section title start */
+
+.section-title h5 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0f4c81;
+    margin-bottom: 15px;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    color: #060606;
+    font-size: 28px;
+    margin: 0;
+}
+
+.section-title-white h2 {
+    color: #fff;
+}
+
+.back-text {
+    color: #060606;
+    opacity: 0.04;
+    font-size: 295px;
+    text-align: right;
+    font-weight: 700;
+    position: absolute;
+    top: -125px;
+    right: 0;
+}
+
+/* section title end */
+
+/* page title start */
+
+.page-title h2 {
+    font-size: 54px;
+    margin-bottom: 15px;
+}
+
+.page-title .back-text {
+    color: #060606;
+    opacity: 0.04;
+    font-size: 295px;
+    text-align: right;
+    font-weight: 700;
+    position: absolute;
+    top: -140px;
+    right: 0;
+}
+
+/* page title end */
+
 
 /* header area start */
 
@@ -377,22 +431,38 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
     transition: all 0.3s ease;
 }
 
-.search-box input {
+.search-box .search-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box .search-form input {
     width: 60%;
     padding: 20px 25px;
 }
 
-.search-box i {
-    margin-left: -50px;
+.search-box .search-form button {
+    margin-left: -45px;
+    background: transparent;
+    border: 0;
+}
+
+.search-box .search-form button i {
     color: #060606;
     display: block;
 }
 
 .search-box.show {
     top: 0;
+    opacity: 1;
+    visibility: visible;
 }
 
 body.hidden-scrolling {
@@ -401,6 +471,43 @@ body.hidden-scrolling {
 
 
 /* header area end  */
+
+/* header-area-two start */
+
+.header-area-two .main-menu ul li a {
+    color: #060606;
+}
+
+.header-area-two .search-icon {
+    border: 1px solid #060606;
+}
+
+.header-area-two .search-icon i {
+    color: #060606;
+}
+
+.header-area-two .search-box {
+    background: #fff;
+}
+
+.header-area-two .menu-copy a {
+    color: #060606;
+}
+
+.header-area-two .menu-address p {
+    color: #060606;
+}
+
+.header-area-two .mobile-menu {
+    border: 1px solid #060606;
+}
+
+.header-area-two .mobile-menu span {
+    background: #060606;
+}
+
+/* header-area-two end */
+
 
 /* slider area start */
 
@@ -489,36 +596,6 @@ body.hidden-scrolling {
 /* service area end */
 
 /* about area start */
-
-.section-title h5 {
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #0f4c81;
-    margin-bottom: 15px;
-}
-
-.section-title h2 {
-    font-weight: 700;
-    color: #060606;
-    font-size: 28px;
-    margin: 0;
-}
-
-.section-title-white h2 {
-    color: #fff;
-}
-
-.back-text {
-    color: #060606;
-    opacity: 0.04;
-    font-size: 295px;
-    text-align: right;
-    font-weight: 700;
-    position: absolute;
-    top: -125px;
-    right: 0;
-}
 
 .ceo-info {
     margin-left: 40px;
@@ -843,6 +920,7 @@ body.hidden-scrolling {
 .blog-content h5 {
     font-size: 17px;
     font-weight: 700;
+    line-height: 1.4;
 }
 
 .blog-btn a {
@@ -923,6 +1001,29 @@ body.hidden-scrolling {
 }
 
 /* contact area end */
+
+/* 404 or fzf start */
+
+.fzf-form {
+    display: flex;
+}
+
+.fzf-content .fzf-form input {
+    width: 100%;
+    padding: 20px 25px;
+}
+
+.fzf-content .fzf-form button {
+    margin-left: -45px;
+    background: transparent;
+    border: 0;
+}
+
+.fzf-content .fzf-form button i {
+    color: #060606;
+}
+
+/* 404 or fzf end */
 
 /* footer area start */
 

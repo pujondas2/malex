@@ -39,6 +39,11 @@
         top: -70px;
     }
 
+    .page-title .back-text {
+        font-size: 170px;
+        top: -70px;
+    }
+
     .single-service {
         padding: 45px 30px;
     }
@@ -58,6 +63,8 @@
 
 /* for mobile menu */
 @media (max-width: 991px) {
+
+    /* header area start */
     .main-menu {
         position: fixed;
         background: #060606;
@@ -113,6 +120,15 @@
     .mobile-menu {
         display: flex;
     }
+    /* header area end */
+
+    /* header-area-two start */
+    .header-area-two .main-menu {
+        background: #fff;
+    }
+    /* header-area-two end */
+    
+
 }
 
  
@@ -122,6 +138,11 @@
     .back-text {
         font-size: 150px;
         top: -50px;
+    }
+
+    .page-title .back-text {
+        font-size: 80px;
+        top: -45px;
     }
 
     .review-quote {
