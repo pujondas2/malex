@@ -10,13 +10,17 @@
 1. Theme default css
 2. header
 3. slider
-4. about-area
-5. features-box
-6. department
+4. service
+5. about
+6. process
 7. team
-8. video-area
-9. counter
-10. footer
+8. Price or Plan
+9. brand
+10. video
+11. testimonial
+12. blog
+13. contact
+14. footer
 */
 
 
@@ -593,6 +597,10 @@ body.hidden-scrolling {
 	color: #0f4c81;
 }
 
+.single-service-title p {
+    width: 50%;
+}
+
 /* service area end */
 
 /* about area start */
@@ -990,6 +998,12 @@ body.hidden-scrolling {
     min-height: 170px;
 }
 
+.form-btn {
+    background: transparent;
+    border: 0;
+    margin-left: -5px;
+}
+
 .form-btn a {
     color: #060606;
     border: 1px solid #060606;
@@ -1011,6 +1025,7 @@ body.hidden-scrolling {
 .fzf-content .fzf-form input {
     width: 100%;
     padding: 20px 25px;
+    border: 0;
 }
 
 .fzf-content .fzf-form button {
@@ -1024,6 +1039,85 @@ body.hidden-scrolling {
 }
 
 /* 404 or fzf end */
+
+/* news page start */
+
+.news-meta-opt {
+    background: #fff;
+    padding: 25px;
+}
+
+.news-meta-opt h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.news-cat ul li {
+    list-style-type: disc;
+    color: #060606;
+    margin: 15px 18px;
+}
+
+.news-cat ul li:last-child {
+    margin-bottom: 0;
+}
+
+.news-cat ul li a {
+    color: #060606;
+}
+
+.single-recent-post h6 {
+    margin: 5px 0 5px 20px;
+    line-height: 1.4;
+}
+
+.single-recent-cmnt {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 15px;
+}
+
+.single-recent-cmnt:last-child {
+    border: 0;
+    padding-bottom: 0;
+}
+
+.single-recent-cmnt h6 {
+    font-weight: 700;
+}
+
+.single-recent-cmnt p {
+    font-size: 12px;
+}
+
+.tags-box a {
+    padding: 8px 8px;
+    background: #060606;
+    font-size: 14px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.single-news-content {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.single-news-content h3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.single-news-quote {
+    border-left: 1px solid #060606;
+    padding-left: 40px;
+}
+
+.single-news-quote p {
+    font-weight: 700;
+    color: #060606;
+}
+
+/* news page end */
 
 /* footer area start */
 

@@ -16,6 +16,10 @@
         padding: 45px 22px;
     }
 
+    .single-service-title p {
+        width: 66%;
+    }
+
     .review-quote {
         height: 110px;
     }
@@ -42,6 +46,10 @@
     .page-title .back-text {
         font-size: 170px;
         top: -70px;
+    }
+
+    .single-service-title p {
+        width: 80%;
     }
 
     .single-service {
@@ -143,6 +151,10 @@
     .page-title .back-text {
         font-size: 80px;
         top: -45px;
+    }
+
+    .single-service-title p {
+        width: 100%;
     }
 
     .review-quote {
